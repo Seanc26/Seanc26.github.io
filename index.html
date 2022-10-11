@@ -4,10 +4,13 @@
         <title>Sean Cogan Sumerian History Project 2024</title>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="style.css">
+        <script src="main.js"></script> 
      </head>
+     
     <body>
         <div class="wrapper">
-        
+            
+
         
             <h1>List of .pdf files used during this project </h1>
             <nav>
@@ -16,11 +19,59 @@
                 </ul>    
             </nav>
         
+
+            
+            <style>
+                body {
+                    background-image: url("h.jpg");
+                }
+             </style>
+
+
+
+
     
     
     
+        <details>
+            <summary>About me</summary>
+            <p>Name: Sean Cogan</p>
+            <p>Age: 16</p>
+            <p>School: Colaiste Choilm</p>
+        </details>
+       
+       
+       <script type="text/javascript">
+
+            today = new Date();
+            
+            BigDay = new Date("January 26, 2023");
+            
+            msPerDay = 24 * 60 * 60 * 1000 ;
+            
+            timeLeft = (BigDay.getTime() - today.getTime());
+            
+            e_daysLeft = timeLeft / msPerDay;
+            
+            daysLeft = Math.floor(e_daysLeft);
+            
+            e_hrsLeft = (e_daysLeft - daysLeft)*24;
+            
+            hrsLeft = Math.floor(e_hrsLeft);
+            
+            minsLeft = Math.floor((e_hrsLeft - hrsLeft)*60);
+            
+            document.write("There are only<BR> <H4>" + daysLeft + " days " + hrsLeft +" hours and " + minsLeft + " minutes left </H4> Until my birthday<P>");
+            
+            </script> 
+
+
+<audio controls>
+    <source src="bird.mp3" type="audio/mpeg">
+</audio>
+
     
-        </div>
+    </div>
     </body>
 
 

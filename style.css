@@ -9,10 +9,39 @@ body {
 }
 
 
-audio {
-    height: 50px;
-    
+.test {
+    width: 100%;
 }
+
+
+.test h2 {
+    
+    padding: 30px 30px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    line-height: 44px;
+}
+
+
+
+.test p {
+    
+    padding: 0px 30px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    line-height: 44px;
+}
+
+.pete {
+    margin: 80px;
+    height: 100px;
+    width: 250px;
+}
+
+.bird {
+    height: 55px;
+}
+
 
 
 
@@ -22,13 +51,17 @@ h1 {
 
 
 details {
+    
     margin: 10px;
 }
 
 .wrapper {
     margin: 0 ;
-    width: 1000px;
+    width: 100%;
 }
+
+
+
 
 nav {
     margin: 10px;
@@ -37,10 +70,7 @@ nav {
     
 }
 
-ul {
 
-
-}
 
 ul li {
     list-style-type: none;
